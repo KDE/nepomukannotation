@@ -1,0 +1,41 @@
+[Desktop Entry]
+Name=Nepomuk PIMO annotation plugin
+Name[el]=Πρόσθετο σημείωσης PIMO του Nepomuk
+Name[en_GB]=Nepomuk PIMO annotation plugin
+Name[es]=Complemento de anotación PIMO de Nepomuk
+Name[et]=Nepomuki PIMO annoteerimise plugin
+Name[fr]=Module d'annotation PIMO pour Nepomuk
+Name[gl]=Extensión de anotación PIMO para Nepomuk
+Name[hr]=Nepomuk priključak za komentiranje PIMO-a
+Name[ja]=Nepomuk PIMO 注釈プラグイン
+Name[km]=កម្មវិធី​ជំនួយ​ពន្យល់ Nepomuk PIMO
+Name[nds]=Nepomuk-TIM-Anmarkmoduul
+Name[nl]=Nepomuk PIMO-annotatie-plugin
+Name[pt]='Plugin' de anotações PIMO do Nepomuk
+Name[pt_BR]=Plugin de anotações PIMO do Nepomuk
+Name[sv]=Nepomuk insticksprogram för notering av PIMO
+Name[tr]=Nepomuk PIMO duyuru eklentisi
+Name[uk]=Додаток анотації PIMO Nepomuk
+Name[x-test]=xxNepomuk PIMO annotation pluginxx
+Comment=Nepomuk Annotation Plugin which creates or annotates PIMO things
+Comment[el]=Πρόσθετο σημείωσης Nepomuk το οποίο δημιουργεί ή σημειώνει στοιχεία PIMO
+Comment[en_GB]=Nepomuk Annotation Plugin which creates or annotates PIMO things
+Comment[es]=Complemento de anotación de Nepomuk que crea o anota cosas PIMO
+Comment[et]=Nepomuki annotatsiooniplugin, mis loob või annoteerib PIMO asju
+Comment[fr]=Module d'annotation pour Nepomuk qui crée ou annote des éléments PIMO
+Comment[gl]=Extensión de anotación de Nepomuk que cría ou anota cousas PIMO
+Comment[hr]=Nepomuk priključak za komentiranje koji stvara ili komentira PIMO stvari
+Comment[km]=កម្មវិធី​ជំនួយ​ចលនា Nepomuk ដែល​បង្កើត​ ឬ​​ពន្យល់​​រឿង PIMO
+Comment[nds]=Nepomuk-Anmarkmoduul, dat TIM-Elementen opstellt oder dor Anmarken toföögt
+Comment[nl]=Nepomuk annotatie-plugin die PIMO-dingen aanmaakt of annoteert
+Comment[pt]=Um 'plugin' de anotações do Nepomuk que cria ou anota objectos PIMO
+Comment[pt_BR]=Um plugin de anotações do Nepomuk que cria ou anota objetos PIMO
+Comment[sv]=Nepomuk insticksprogram för notering som skapar eller noterar PIMO-saker
+Comment[uk]=Додаток анотації Nepomuk, який створює і коментує елементи PIMO
+Comment[x-test]=xxNepomuk Annotation Plugin which creates or annotates PIMO thingsxx
+X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
+Type=Service
+X-KDE-Library=nepomuk_pimoannotationplugin
+
+# We can annotate everything - we just create a pimo thing
+X-Nepomuk-ResourceTypes=*

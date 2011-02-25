@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Nepomuk PIMO property creation annotation plugin
+Comment=Nepomuk Annotation Plugin which creates new property values
+X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
+Type=Service
+X-KDE-Library=nepomuk_propertycreationannotationplugin
+
+# We can annotate everything
+X-Nepomuk-ResourceTypes=*

@@ -1,0 +1,33 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+         "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.kde.nepomuk.UserContextService">
+    <method name="currentUserContext">
+      <arg name="uri" type="s" direction="out" />
+    </method>
+    <method name="currentProject">
+      <arg name="uri" type="s" direction="out" />
+    </method>
+    <method name="currentTask">
+      <arg name="uri" type="s" direction="out" />
+    </method>
+    <method name="setCurrentUserContext">
+      <arg name="uri" type="s" direction="in" />
+    </method>
+    <method name="setCurrentProject">
+      <arg name="uri" type="s" direction="in" />
+    </method>
+    <method name="setCurrentTask">
+      <arg name="uri" type="s" direction="in" />
+    </method>
+    <signal name="currentUserContextChanged">
+      <arg name="uri" type="s" />
+    </signal>
+    <signal name="currentProjectChanged">
+      <arg name="uri" type="s" />
+    </signal>
+    <signal name="currentTaskChanged">
+      <arg name="uri" type="s" />
+    </signal>
+  </interface>
+</node>

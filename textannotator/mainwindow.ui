@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>803</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="Nepomuk::TextAnnotationWidget" name="m_annotationWidget" native="true"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="Nepomuk::AnnotationDisplay" name="m_annotationDisplay" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Nepomuk::ResourceRelationView" name="m_relationView">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="Nepomuk::StatementEditor" name="m_statementEditor" native="true"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListView" name="m_annotationView"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="KTextBrowser" name="m_textBrowser"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KTextBrowser</class>
+   <extends>QTextBrowser</extends>
+   <header>ktextbrowser.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Nepomuk::AnnotationDisplay</class>
+   <extends>QWidget</extends>
+   <header>annotationdisplay.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Nepomuk::TextAnnotationWidget</class>
+   <extends>QWidget</extends>
+   <header>textannotationwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Nepomuk::ResourceRelationView</class>
+   <extends>QListView</extends>
+   <header>resourcerelationview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Nepomuk::StatementEditor</class>
+   <extends>QWidget</extends>
+   <header>statementeditor.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

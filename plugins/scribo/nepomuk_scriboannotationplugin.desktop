@@ -1,0 +1,38 @@
+[Desktop Entry]
+Name=Scribo annotation plugin
+Name[en_GB]=Scribo annotation plugin
+Name[es]=Complemento de anotación de Scribo
+Name[et]=Scribo annotatsiooniplugin
+Name[fr]=Module d'annotation Scribo
+Name[hr]=Scribo priključak za komentiranje
+Name[ja]=Scribo 注釈プラグイン
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​​របស់ Scribo
+Name[nds]=Scribo-Anmarkenmoduul
+Name[nl]=Scribo-annotatie-plugin
+Name[pt]='Plugin' de anotações do Scribo
+Name[pt_BR]=Plugin de anotações do Scribo
+Name[ro]=Modul de adnotare Scribo
+Name[sv]=Scribo insticksprogram för notering
+Name[tr]=Scribo not eklentisi
+Name[uk]=Додаток анотації Scribo
+Name[x-test]=xxScribo annotation pluginxx
+Comment=Nepomuk Annotation Plugin which extracts entitiy from a text using Scribo
+Comment[en_GB]=Nepomuk Annotation Plugin which extracts entitiy from a text using Scribo
+Comment[es]=Complemento de anotación de Nepomuk que extrae entidades de un texto usando Scribo
+Comment[et]=Nepomuki annotatsiooniplugin, mis hangib Scribo vahendusel tekstist olemeid
+Comment[fr]=Module d'annotation pour Nepomuk qui extrait des éléments d'un texte en faisant appel à Scribo
+Comment[hr]=Nepomuk priključak za komentiranje koji izvlači smisao iz teksta pomoću Scribo-a
+Comment[km]=កម្មវិធី​ជំនួយ​ចលនាពន្យល់ Nepomuk ដែល​ស្រង់​ធាតុ​ចេញ​ពី​អត្ថបទ​ដោ​យ​ប្រើ Scribo
+Comment[nds]=Nepomuk-Anmarkenmoduul, dat mit Scribo Eenheiten ut en Text ruttreckt
+Comment[nl]=Nepomuk annotatie-plugin die met behulp van Scribo entiteit uit een tekst haalt
+Comment[pt]=Um 'plugin' de anotações do Nepomuk que extrai a entidade de um texto com o Scribo
+Comment[pt_BR]=Um plugin de anotações do Nepomuk que extrai a entidade de um texto com o Scribo
+Comment[sv]=Nepomuk insticksprogram som extraherar objekt från en text med användning av Scribo
+Comment[uk]=Додаток анотації Nepomuk, який видобуває елементи з тексту за допомогою Scribo
+Comment[x-test]=xxNepomuk Annotation Plugin which extracts entitiy from a text using Scriboxx
+X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
+Type=Service
+X-KDE-Library=nepomuk_scriboannotationplugin
+
+# FIXME
+X-Nepomuk-ResourceTypes=*

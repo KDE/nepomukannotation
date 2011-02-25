@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=ServiceType
+X-KDE-ServiceType=Nepomuk/AnnotationPlugin
+
+Comment=Nepomuk annotation plugin
+Comment[el]=Πρόσθετο σημείωσης του Nepomuk
+Comment[en_GB]=Nepomuk annotation plugin
+Comment[es]=Complemento de anotación Nepomuk
+Comment[et]=Nepomuki annotatsiooniplugin
+Comment[fr]=Module d'annotation pour Nepomuk
+Comment[gl]=Extensión de anotación para Nepomuk
+Comment[hr]=Nepomuk priključak za komentiranje
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​​របស់ ​Nepomuk
+Comment[nds]=Nepomuk-Anmarkenmoduul
+Comment[nl]=Nepomuk annotatie-plugin
+Comment[pt]='Plugin' de anotações do Nepomuk
+Comment[pt_BR]=Plugin de anotações do Nepomuk
+Comment[ro]=Modul de adnotare Nepomuk
+Comment[sv]=Nepomuk insticksprogram för notering
+Comment[tr]=Nepomuk not eklentisi
+Comment[uk]=Додаток анотації Nepomuk
+Comment[x-test]=xxNepomuk annotation pluginxx
+
+# The types of resources supported by the plugin, i.e. it can create annotations
+# for this kind of resource. Wildcard * is allowed to indicate all resource types
+[PropertyDef::X-Nepomuk-ResourceTypes]
+Type=QStringList

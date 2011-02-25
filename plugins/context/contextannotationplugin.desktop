@@ -1,0 +1,34 @@
+[Desktop Entry]
+Name=Context annotation plugin
+Name[en_GB]=Context annotation plugin
+Name[es]=Complemento de anotación de contexto
+Name[et]=Konteksti annotatsiooniplugin
+Name[fr]=Module d'annotation de contexte
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​​បរិបទ
+Name[nds]=Kontext-Anmarkmoduul
+Name[nl]=Contextannotatie-plugin
+Name[pt]='Plugin' de anotações do contexto
+Name[pt_BR]=Plugin de anotações do contexto
+Name[sv]=Insticksprogram för notering av sammanhang
+Name[tr]=Not eklentisi
+Name[uk]=Додаток контекстної анотації
+Name[x-test]=xxContext annotation pluginxx
+Comment=Nepomuk Annotation Plugin which proposes to relate to the current Nepomuk context
+Comment[en_GB]=Nepomuk Annotation Plugin which proposes to relate to the current Nepomuk context
+Comment[es]=Complemento de anotación de Nepomuk que proporciona relaciones con el contexto actual de Nepomuk
+Comment[et]=Nepomuki annotatsiooniplugin, mis püüab seostada aktiivset Nepomuki konteksti
+Comment[fr]=Module d'annotation pour Nepomuk visant à faire le lien avec le contexte Nepomuk actuel
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​របស់ Nepomuk ដែល​ដំណើរការ​ទាក់ទង​នឹង​​បរិបទ​របស់ Nepomuk បច្ចុប្បន្ន
+Comment[nds]=Nepomuk-Anmarkmoduul, dat Betöög na den aktuellen Nepomuk-Kontext vörsleit
+Comment[nl]=De Nepomuk annotatie-plugin stelt een relatie voor met de huidige Nepomuk context
+Comment[pt]=Um 'plugin' de anotações do Nepomuk que tenta relacionar a partir do contexto actual do Nepomuk
+Comment[pt_BR]=Um plugin de anotações do Nepomuk que tenta relacionar a partir do contexto atual do Nepomuk
+Comment[sv]=Nepomuk insticksprogram för notering som försöker relatera till Nepomuks aktuella sammanhang
+Comment[uk]=Додаток анотації Nepomuk, який пропонує зв’язки з поточним контекстом Nepomuk
+Comment[x-test]=xxNepomuk Annotation Plugin which proposes to relate to the current Nepomuk contextxx
+X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
+Type=Service
+X-KDE-Library=nepomuk_contextannotationplugin
+
+# FIXME
+X-Nepomuk-ResourceTypes=*

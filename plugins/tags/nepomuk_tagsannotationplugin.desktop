@@ -1,0 +1,45 @@
+[Desktop Entry]
+Name=Nepomuk tags annotation plugin
+Name[el]=Πρόσθετο σημείωσης ετικετών του Nepomuk
+Name[en_GB]=Nepomuk tags annotation plugin
+Name[es]=Complemento de anotación de etiquetas de Nepomuk
+Name[et]=Nepokumi siltide annoteerimise plugin
+Name[fr]=Module d'annotation des étiquettes pour Nepomuk
+Name[gl]=Extensión de anotación de etiquetas para Nepomuk
+Name[hr]=Nepomuk priključak za komentiranje oznaka
+Name[ja]=Nepomuk タグ注釈プラグイン
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ស្លាក​របស់​ Nepomuk
+Name[nds]=Nepomuk-Slötelwoortanmark-Moduul
+Name[nl]=Nepomuk annotatie-plugin voor tags
+Name[pt]='Plugin' de anotação de marcas do Nepomuk
+Name[pt_BR]=Plugin de anotação de marcas do Nepomuk
+Name[ro]=Modul Nepomuk de adnotare a marcajelor
+Name[sv]=Nepomuk insticksprogram för notering av etiketter
+Name[tr]=Nepomuk etiket duyuru eklentisi
+Name[uk]=Додаток анотації міток Nepomuk
+Name[x-test]=xxNepomuk tags annotation pluginxx
+Comment=Nepomuk tags region annotation plugin
+Comment[el]=Πρόσθετο σημείωσης περιοχής ετικετών του Nepomuk
+Comment[en_GB]=Nepomuk tags region annotation plugin
+Comment[et]=Nepomuki siltide piirkonna annoteerimise plugin
+Comment[fr]=Module d'annotation de zone par étiquette pour Nepomuk
+Comment[gl]=Extensión de anotación de rexión de etiquetas para Nepomuk
+Comment[hr]=Nepomuk priključak za komentiranje regije oznaka
+Comment[ja]=Nepomuk タグ注釈プラグイン
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​តំបន់​ស្លាក​របស់ Nepomuk
+Comment[nds]=Nepomuk-Slötelwoortrebeet-Anmarkmoduul
+Comment[nl]=Nepomuk annotatie-plugin voor tags-regio's
+Comment[pt]='Plugin' de anotação das regiões das marcas do Nepomuk
+Comment[pt_BR]=Plugin de anotação das regiões das marcas do Nepomuk
+Comment[sv]=Nepomuk insticksprogram för notering av områdesetiketter
+Comment[tr]=Nepomuk etiket alanları duyuru eklentisi
+Comment[uk]=Додаток анотації регіону міток Nepomuk
+Comment[x-test]=xxNepomuk tags region annotation pluginxx
+X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
+Type=Service
+X-KDE-Library=nepomuk_tagsannotationplugin
+X-KDE-NepomukProperties=http://www.semanticdesktop.org/ontologies/2007/08/15/nao#hasTag
+X-KDE-NepomukResourceType=http://www.semanticdesktop.org/ontologies/2007/08/15/nao#Tag
+
+# we can tag everything
+X-Nepomuk-ResourceTypes=*
