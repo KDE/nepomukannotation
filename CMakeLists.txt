@@ -60,5 +60,6 @@ add_subdirectory(resourceeditor)
 add_subdirectory(test)
 add_subdirectory(contextservice)
 add_subdirectory(contextplasmoid)
+add_subdirectory(konqueror)
 
 macro_display_feature_log()
