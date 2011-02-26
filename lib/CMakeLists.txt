@@ -2,6 +2,8 @@ project(libnepomukannotation)
 
 include(SopranoAddOntology)
 
+configure_file(nepomukannotation_version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/nepomukannotation_version.h)
+
 set( corelib_SRCS
     annotationpluginfactory.cpp
     annotationplugin.cpp
@@ -17,6 +19,7 @@ set( corelib_SRCS
     stackedpimotextannotation.cpp
     nepomukcontext.cpp
     dbusconnectionpool.cpp
+    nepomukannotation_version.cpp
     gui/annotationrelevancefiltermodel.cpp
     gui/resourceannotationmodel.cpp
     gui/annotationmodel.cpp
@@ -89,6 +92,7 @@ install(FILES
   gui/resourcerelationview.h
   gui/resourceeditor.h
   gui/annotationmenu.h
+  ${CMAKE_CURRENT_BINARY_DIR}/nepomukannotation_version.h
   DESTINATION ${INCLUDE_INSTALL_DIR}/nepomuk)
 install(FILES nepomuk-annotationplugin.desktop DESTINATION ${SERVICETYPES_INSTALL_DIR})
 
