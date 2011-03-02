@@ -3,7 +3,11 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/ResourceActionPlugin
 
 Comment=Nepomuk resource action plugin
+Comment[nds]=Nepomuk-Akschoonressource-Moduul
+Comment[nl]=Nepomuk hulpbronactie-plugin
+Comment[pt]='Plugin' de acções dos recursos do Nepomuk
 Comment[uk]=Додаток дій ресурсів Nepomuk
+Comment[x-test]=xxNepomuk resource action pluginxx
 
 [PropertyDef::X-KDE-NepomukResourceType]
 Type=QStringList

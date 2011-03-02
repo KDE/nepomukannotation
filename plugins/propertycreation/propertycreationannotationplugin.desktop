@@ -1,8 +1,12 @@
 [Desktop Entry]
 Name=Nepomuk PIMO property creation annotation plugin
+Name[pt]='Plugin' de anotações de criação de propriedades do PIMO para o Nepomuk
 Name[uk]=Додаток анотації для створення записів властивостей у PIMO Nepomuk
+Name[x-test]=xxNepomuk PIMO property creation annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates new property values
+Comment[pt]='Plugin' de anotações do Nepomuk que cria novos valores para as propriedades
 Comment[uk]=Додаток анотації Nepomuk, який створює нові значення властивостей
+Comment[x-test]=xxNepomuk Annotation Plugin which creates new property valuesxx
 X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
 Type=Service
 X-KDE-Library=nepomuk_propertycreationannotationplugin

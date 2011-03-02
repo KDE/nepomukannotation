@@ -1,8 +1,16 @@
 [Desktop Entry]
 Name=DBpedia annotation plugin
+Name[nds]=DBpedia-Anmarkenmoduul
+Name[nl]=DBpedia annotatie-plugin
+Name[pt]='Plugin' de anotações do DBpedia
 Name[uk]=Додаток анотації DBpedia
+Name[x-test]=xxDBpedia annotation pluginxx
 Comment=Nepomuk Annotation Plugin which searches DBpedia for related resources
+Comment[nds]=Nepomuk-Anmarkenmoduul, dat DBpedia na tohören Ressourcen dörkiekt
+Comment[nl]=Nepomuk annotatie-plugin die in DBpedia zoekt naar gerelateerde hulpbronnen
+Comment[pt]='Plugin' de anotações do Nepomuk que pesquisa no DBpedia por recursos relacionados
 Comment[uk]=Додаток анотації Nepomuk, який виконує пошук пов’язаних ресурсів у DBpedia
+Comment[x-test]=xxNepomuk Annotation Plugin which searches DBpedia for related resourcesxx
 X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
 Type=Service
 X-KDE-Library=nepomuk_dbpediaannotationplugin

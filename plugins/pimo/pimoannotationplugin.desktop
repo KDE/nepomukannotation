@@ -1,8 +1,14 @@
 [Desktop Entry]
 Name=Nepomuk PIMO annotation plugin
+Name[nl]=Nepomuk PIMO-annotatie-plugin
+Name[pt]='Plugin' de anotações do PIMO para o Nepomuk
 Name[uk]=Додаток анотації PIMO Nepomuk
+Name[x-test]=xxNepomuk PIMO annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates or annotates PIMO things
+Comment[nl]=Nepomuk annotatie-plugin die PIMO-dingen aanmaakt of annoteert
+Comment[pt]='Plugin' de anotações do Nepomuk que cria ou faz anotações sobre itens do PIMO
 Comment[uk]=Додаток анотації Nepomuk, який створює і коментує елементи PIMO
+Comment[x-test]=xxNepomuk Annotation Plugin which creates or annotates PIMO thingsxx
 X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
 Type=Service
 X-KDE-Library=nepomuk_pimoannotationplugin

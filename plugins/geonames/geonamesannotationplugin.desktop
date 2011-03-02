@@ -1,8 +1,16 @@
 [Desktop Entry]
 Name=Geonames annotation plugin
+Name[nds]=Steden-Anmarkmoduul
+Name[nl]=Geonames annotatie-plugin
+Name[pt]='Plugin' de anotações do Geonames
 Name[uk]=Додаток анотації Geonames
+Name[x-test]=xxGeonames annotation pluginxx
 Comment=Nepomuk Annotation Plugin which tries to relate to geographical things such as cities from geonames
+Comment[nds]=Nepomuk-Anmarkmoduul, dat Betöög vun Steednaams op geograafsch Saken as Städer opstellen schall
+Comment[nl]=Nepomuk annotatie-plugin die een relatie probeert te leggen met geografisch dingen zoals steden uit geonames
+Comment[pt]='Plugin' de anotações do Nepomuk que tenta estabelecer relações com itens geográficos, como as cidades do Geonames
 Comment[uk]=Додаток анотації Nepomuk, який намагається знайти зв’язок з географічними назвами, такими як міста, з Geonames
+Comment[x-test]=xxNepomuk Annotation Plugin which tries to relate to geographical things such as cities from geonamesxx
 X-KDE-ServiceTypes=Nepomuk/AnnotationPlugin
 Type=Service
 X-KDE-Library=nepomuk_geonamesannotationplugin

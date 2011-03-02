@@ -6,8 +6,14 @@ Actions=annotate;
 
 [Desktop Action annotate]
 Name=Annotate...
+Name[nl]=Annoteren...
+Name[pt]=Anotar...
 Name[uk]=Анотувати…
+Name[x-test]=xxAnnotate...xx
 Comment=Nepomuk PIMO Resource Editor
+Comment[nl]=Nepomuk PIMO-hulpbronbewerker
+Comment[pt]=Editor de Recursos PIMO do Nepomuk
 Comment[uk]=Редактор ресурсів PIMO Nepomuk
+Comment[x-test]=xxNepomuk PIMO Resource Editorxx
 Icon=nepomuk
 Exec=resourceeditor %U

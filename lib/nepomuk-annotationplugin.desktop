@@ -3,7 +3,10 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/AnnotationPlugin
 
 Comment=Nepomuk annotation plugin
+Comment[nl]=Nepomuk annotatie-plugin
+Comment[pt]='Plugin' de anotações do Nepomuk
 Comment[uk]=Додаток анотації Nepomuk
+Comment[x-test]=xxNepomuk annotation pluginxx
 
 # The types of resources supported by the plugin, i.e. it can create annotations
 # for this kind of resource. Wildcard * is allowed to indicate all resource types
