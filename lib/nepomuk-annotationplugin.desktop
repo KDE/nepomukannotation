@@ -5,6 +5,7 @@ X-KDE-ServiceType=Nepomuk/AnnotationPlugin
 Comment=Nepomuk annotation plugin
 Comment[nl]=Nepomuk annotatie-plugin
 Comment[pt]='Plugin' de anotações do Nepomuk
+Comment[pt_BR]=Plug-in de anotações do Nepomuk
 Comment[uk]=Додаток анотації Nepomuk
 Comment[x-test]=xxNepomuk annotation pluginxx
 

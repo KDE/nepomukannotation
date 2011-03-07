@@ -2,11 +2,13 @@
 Name=Work Context Chooser
 Name[nl]=Kiezer van de werkcontext
 Name[pt]=Selector do Contexto de Trabalho
+Name[pt_BR]=Seletor do Contexto de Trabalho
 Name[uk]=Вибір робочого контексту
 Name[x-test]=xxWork Context Chooserxx
 Comment=Select the current Nepomuk work context
 Comment[nl]=De huidige werkcontext van Nepomuk selecteren
 Comment[pt]=Selecciona o contexto de trabalho actual do Nepomuk
+Comment[pt_BR]=Selecione o contexto de trabalho atual do Nepomuk
 Comment[uk]=Вибір поточного робочого контексту Nepomuk
 Comment[x-test]=xxSelect the current Nepomuk work contextxx
 Icon=nepomuk
