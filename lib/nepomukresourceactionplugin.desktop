@@ -3,6 +3,7 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/ResourceActionPlugin
 
 Comment=Nepomuk resource action plugin
+Comment[et]=Nepomuki ressursi toimingu plugin
 Comment[nds]=Nepomuk-Akschoonressource-Moduul
 Comment[nl]=Nepomuk hulpbronactie-plugin
 Comment[pt]='Plugin' de acções dos recursos do Nepomuk

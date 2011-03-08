@@ -1,11 +1,13 @@
 [Desktop Entry]
 Name=Work Context Chooser
+Name[et]=Töökonteksti valija
 Name[nl]=Kiezer van de werkcontext
 Name[pt]=Selector do Contexto de Trabalho
 Name[pt_BR]=Seletor do Contexto de Trabalho
 Name[uk]=Вибір робочого контексту
 Name[x-test]=xxWork Context Chooserxx
 Comment=Select the current Nepomuk work context
+Comment[et]=Aktiivne Nepomuki töökonteksti valimine
 Comment[nl]=De huidige werkcontext van Nepomuk selecteren
 Comment[pt]=Selecciona o contexto de trabalho actual do Nepomuk
 Comment[pt_BR]=Selecione o contexto de trabalho atual do Nepomuk
