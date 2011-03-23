@@ -4,7 +4,7 @@ project(nepomukannotation)
 # ===============================================================================================
 set(CMAKE_NEPOMUKANNOTATION_VERSION_MAJOR 0)
 set(CMAKE_NEPOMUKANNOTATION_VERSION_MINOR 2)
-set(CMAKE_NEPOMUKANNOTATION_VERSION_RELEASE 0)
+set(CMAKE_NEPOMUKANNOTATION_VERSION_RELEASE 60)
 set(CMAKE_NEPOMUKANNOTATION_VERSION "${CMAKE_NEPOMUKANNOTATION_VERSION_MAJOR}.${CMAKE_NEPOMUKANNOTATION_VERSION_MINOR}.${CMAKE_NEPOMUKANNOTATION_VERSION_RELEASE}")
 
 
@@ -61,5 +61,6 @@ add_subdirectory(test)
 add_subdirectory(contextservice)
 add_subdirectory(contextplasmoid)
 add_subdirectory(konqueror)
+add_subdirectory(fileitemplugin)
 
 macro_display_feature_log()

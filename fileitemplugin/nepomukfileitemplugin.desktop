@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+Name=Nepomuk File Item Action plugin
+Comment=Annotate files and folders via a dynamic Nepomuk menu
+Icon=nepomuk
+X-KDE-Library=nepomukfileitemplugin
+ServiceTypes=KFileItemAction/Plugin
+MimeType=application/octet-stream;inode/directory;
