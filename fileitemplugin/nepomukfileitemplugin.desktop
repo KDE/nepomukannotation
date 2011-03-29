@@ -2,11 +2,15 @@
 Encoding=UTF-8
 Type=Service
 Name=Nepomuk File Item Action plugin
+Name[et]=Nepomuki faili toimingu plugin
+Name[nl]=Nepomuk plugin voor actie voor bestanditem
 Name[pt]='Plugin' para Acções de Itens de Ficheiros do Nepomuk
 Name[pt_BR]=Plug-in para ações de itens de arquivos do Nepomuk
 Name[uk]=Додаток дії над пунктом файла Nepomuk
 Name[x-test]=xxNepomuk File Item Action pluginxx
 Comment=Annotate files and folders via a dynamic Nepomuk menu
+Comment[et]=Failide ja kataloogide annoteerimine dünaamilise Nepomuki menüü abil
+Comment[nl]=Bestanden en mappen annoteren via een dynamisch Nepomuk menu
 Comment[pt]=Anotar os ficheiros e pastas através de um menu dinâmico do Nepomuk
 Comment[pt_BR]=Anotar os arquivos e pastas através de um menu dinâmico do Nepomuk
 Comment[uk]=Анотування файлів і тек за допомогою динамічного меню Nepomuk
