@@ -14,7 +14,6 @@ target_link_libraries(nepomuk_contextannotationplugin
   ${KDE4_KDEUI_LIBS}
   ${KDE4_KIO_LIBS}
   nepomukannotation
-  nepomukcontext
   nepomukextras
 )
 
