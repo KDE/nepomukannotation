@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Nepomuk contact annotation plugin
 Name[et]=Nepomuki kontakti annoteerimise plugin
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ទាក់ទង Nepomuk
 Name[nds]=Nepomuk-Kontakt-Anmarkmoduul
 Name[nl]=Nepomuk contact-annotatie-plugin
 Name[pt]='Plugin' de anotações de contactos do Nepomuk
@@ -9,6 +10,7 @@ Name[uk]=Додаток анотації контактів Nepomuk
 Name[x-test]=xxNepomuk contact annotation pluginxx
 Comment=Nepomuk contact annotation plugin
 Comment[et]=Nepomuki kontakti annoteerimise plugin
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ទាក់ទង Nepomuk
 Comment[nds]=Nepomuk-Kontakt-Anmarkmoduul
 Comment[nl]=Nepomuk contact-annotatie-plugin
 Comment[pt]='Plugin' de anotações de contactos do Nepomuk

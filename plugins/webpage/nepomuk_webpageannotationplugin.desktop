@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Nepomuk webpage annotation plugin
 Name[et]=Nepomuki veebilehekülje annoteerimise plugin
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​ទំព័រ​បណ្ដាញ Nepomuk
 Name[nds]=Nepomuk-Nettsieden-Anmarkmoduul
 Name[nl]=Nepomuk annotatie-plugin voor webpagina's
 Name[pt]='Plugin' de anotações de páginas Web do Nepomuk
@@ -9,6 +10,7 @@ Name[uk]=Додаток анотації вебсторінок Nepomuk
 Name[x-test]=xxNepomuk webpage annotation pluginxx
 Comment=Nepomuk webpage region annotation plugin
 Comment[et]=Nepomuki veebilehekülje piirkonna annoteerimise plugin
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​តំបន់​ទំព័រ​បណ្ដាញ Nepomuk
 Comment[nds]=Nepomuk-Nettsietrebeet-Anmarkmoduul
 Comment[nl]=Nepomuk annotatie-plugin voor webpagina-regio's
 Comment[pt]='Plugin' de anotações de regiões para páginas Web do Nepomuk

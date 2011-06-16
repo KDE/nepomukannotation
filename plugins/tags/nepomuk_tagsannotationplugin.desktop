@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Nepomuk tags annotation plugin
 Name[et]=Nepokumi siltide annoteerimise plugin
+Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ស្លាក Nepomuk
 Name[nds]=Nepomuk-Slötelwoortanmark-Moduul
 Name[nl]=Nepomuk annotatie-plugin voor tags
 Name[pt]='Plugin' de anotações de marcas do Nepomuk
@@ -9,6 +10,7 @@ Name[uk]=Додаток анотації міток Nepomuk
 Name[x-test]=xxNepomuk tags annotation pluginxx
 Comment=Nepomuk tags region annotation plugin
 Comment[et]=Nepomuki siltide piirkonna annoteerimise plugin
+Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​តំបន់​ស្លាក Nepomuk
 Comment[nds]=Nepomuk-Slötelwoortrebeet-Anmarkmoduul
 Comment[nl]=Nepomuk annotatie-plugin voor tags-regio's
 Comment[pt]='Plugin' de anotações de regiões de marcas do Nepomuk
