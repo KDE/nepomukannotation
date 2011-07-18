@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Scribo annotation plugin
 Name[et]=Scribo annotatsiooniplugin
+Name[fr]=Module externe d'annotation Scribo
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Scribo
 Name[nds]=Scribo-Anmarkenmoduul
 Name[nl]=Scribo-annotatie-plugin
@@ -11,6 +12,7 @@ Name[uk]=Додаток анотації Scribo
 Name[x-test]=xxScribo annotation pluginxx
 Comment=Nepomuk Annotation Plugin which extracts entitiy from a text using Scribo
 Comment[et]=Nepomuki annotatsiooniplugin, mis hangib Scribo vahendusel tekstist olemeid
+Comment[fr]=Module externe d'annotation Nepomuk extrayant une entité à partir d'un texte à l'aide de Scribo
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Nepomuk ដែល​ស្រង់​ធាតុចេញពី​​អត្ថបទ​ដោយ​ប្រើ Scribo
 Comment[nds]=Nepomuk-Anmarkenmoduul, dat mit Scribo Eenheiten ut en Text ruttreckt
 Comment[nl]=Nepomuk annotatie-plugin die met behulp van Scribo entiteit uit een tekst haalt

@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Work Context Chooser
 Name[et]=Töökonteksti valija
+Name[fr]=Sélecteur de contextes de travail
 Name[km]= កម្មវិធី​ជ្រើស​​បរិបទ​ការងារ
 Name[nl]=Kiezer van de werkcontext
 Name[pl]=Wybierak kontekstu pracy
@@ -10,6 +11,7 @@ Name[uk]=Вибір робочого контексту
 Name[x-test]=xxWork Context Chooserxx
 Comment=Select the current Nepomuk work context
 Comment[et]=Aktiivne Nepomuki töökonteksti valimine
+Comment[fr]=Sélectionne le contexte de travail actuel de Nepomuk
 Comment[km]=ជ្រើស​​បរិបទ​ការងារ Nepomuk បច្ចុប្បន្ន
 Comment[nl]=De huidige werkcontext van Nepomuk selecteren
 Comment[pl]=Wybierz bieżący kontekst pracy Nepomuk

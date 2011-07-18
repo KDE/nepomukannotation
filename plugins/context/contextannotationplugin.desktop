@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Context annotation plugin
 Name[et]=Konteksti annotatsiooniplugin
+Name[fr]=Module externe d'annotation de contextes
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​បរិបទ
 Name[nds]=Kontext-Anmarkmoduul
 Name[nl]=Contextannotatie-plugin
@@ -11,6 +12,7 @@ Name[uk]=Додаток контекстної анотації
 Name[x-test]=xxContext annotation pluginxx
 Comment=Nepomuk Annotation Plugin which proposes to relate to the current Nepomuk context
 Comment[et]=Nepomuki annotatsiooniplugin, mis püüab seostada aktiivset Nepomuki konteksti
+Comment[fr]=Module externe Nepomuk  d'annotation proposant une relation avec le contexte Nepomuk actuel
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Nepomuk ដែល​ដាក់​ស្នើ​ដើម្បី​ទាក់ទង​ទៅ​កាន់​បរិបទ Nepomuk បច្ចុប្បន្ន
 Comment[nds]=Nepomuk-Anmarkmoduul, dat Betöög na den aktuellen Nepomuk-Kontext vörsleit
 Comment[nl]=De Nepomuk annotatie-plugin stelt een relatie voor met de huidige Nepomuk context

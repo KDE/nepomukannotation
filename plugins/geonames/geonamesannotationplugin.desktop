@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Geonames annotation plugin
 Name[et]=Geonamesi annotatsiooniplugin
+Name[fr]=Module externe d'annotation Geonames
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​ Geonames
 Name[nds]=Steden-Anmarkmoduul
 Name[nl]=Geonames annotatie-plugin
@@ -11,6 +12,7 @@ Name[uk]=Додаток анотації Geonames
 Name[x-test]=xxGeonames annotation pluginxx
 Comment=Nepomuk Annotation Plugin which tries to relate to geographical things such as cities from geonames
 Comment[et]=Nepomuki annotatsiooniplugin, mis püüab seostada geograafilisi asju, näiteks linnasid, Geonamesi põhjal
+Comment[fr]=Module externe Nepomuk d'annotation s'efforçant d'associer des éléments géographiques tels que des villes à partir de Geonames
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​ Nepomuk ដែល​ព្យាយាម​ទាក់ទង​ទៅ​កាន់​​វត្ថុ​ភូមិសាស្ត្រ មាន​ដូចជា​ទីក្រុង​ចេញពី​ geonames
 Comment[nds]=Nepomuk-Anmarkmoduul, dat Betöög vun Steednaams op geograafsch Saken as Städer opstellen schall
 Comment[nl]=Nepomuk annotatie-plugin die een relatie probeert te leggen met geografisch dingen zoals steden uit geonames

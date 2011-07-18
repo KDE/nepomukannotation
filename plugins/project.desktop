@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Nepomuk project annotation plugin
 Name[et]=Nepomuki projekti annoteerimise plugin
+Name[fr]=Module externe Nepomuk d'annotation de projets
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​គម្រោង Nepomuk
 Name[nds]=Nepomuk-Projekt-Anmarkmoduul
 Name[nl]=Nepomuk project-annotatie-plugin
@@ -11,6 +12,7 @@ Name[uk]=Додаток анотації проектів Nepomuk
 Name[x-test]=xxNepomuk project annotation pluginxx
 Comment=Nepomuk project annotation plugin
 Comment[et]=Nepomuki projekti annoteerimise plugin
+Comment[fr]=Module externe Nepomuk d'annotation de projets
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​គម្រោង Nepomuk
 Comment[nds]=Nepomuk-Projekt-Anmarkmoduul
 Comment[nl]=Nepomuk project-annotatie-plugin

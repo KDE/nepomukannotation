@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Nepomuk PIMO type plugin
 Name[et]=Nepomuki PIMO tüübi plugin
+Name[fr]=Module externe Nepomuk de types PIMO
 Name[km]=កម្មវិធី​ជំនួយ​ប្រភេទ Nepomuk PIMO
 Name[nl]=Nepomuk PIMO-type plugin
 Name[pl]=Wtyczka typów PIMO dla Nepomuk
@@ -10,6 +11,7 @@ Name[uk]=Додаток типів PIMO Nepomuk
 Name[x-test]=xxNepomuk PIMO type pluginxx
 Comment=Nepomuk Annotation Plugin which creates and types PIMO things
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob ja annab tüübi PIMO asjadele
+Comment[fr]=Module externe Nepomuk d'annotation créant et caractérisant des éléments PIMO
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ Nepomuk ដែល​បង្កើត និង​ដាក់​វត្ថុ PIMO ឲ្យ​នៅ​ដោយ​ឡែក
 Comment[nl]=Nepomuk annotatie-plugin die PIMO-dingen aanmaakt en typeert
 Comment[pl]=Wtyczka adnotacji dla Nepomuk, która tworzy i nadaje typ rzeczom PIMO
