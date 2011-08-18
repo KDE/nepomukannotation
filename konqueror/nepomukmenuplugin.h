@@ -51,7 +51,8 @@ public:
 
 private Q_SLOTS:
 	void ratingChanged(unsigned int rating);
-    void slotResourceAnnotated();
+	void slotResourceAnnotated();
+	void linkToResource();
 
 private:
 	/**

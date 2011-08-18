@@ -23,6 +23,7 @@
 #include "annotationmenu.h"
 #include "nfo.h"
 #include "pimo.h"
+#include "resourcelinkdialog.h"
 
 #include <konq_popupmenuinformation.h>
 #include <KHTMLView>
@@ -43,7 +44,7 @@
 #include <Nepomuk/Thing>
 #include <Nepomuk/Variant>
 #include <Nepomuk/KRatingWidget>
-
+#include <KDialog>
 
 Q_DECLARE_METATYPE( Nepomuk::Tag )
 
@@ -90,7 +91,7 @@ void NepomukMenuPlugin::setup( KActionCollection* collection, const KonqPopupMen
         // All actions in menu will be deleted by the framework
 
         // Rating action
-        KActionMenu* rateMenu = new KActionMenu( i18nc("@action:inmenu", "Rate this page"), collection );
+        KActionMenu* rateMenu = new KActionMenu( i18nc("@action:inmenu", "Rate"), collection );
         rateMenu->addAction(m_rateAction);
         menu->addAction(rateMenu);
         m_ratingWidget->setRating(nfoResource.rating());
@@ -98,11 +99,27 @@ void NepomukMenuPlugin::setup( KActionCollection* collection, const KonqPopupMen
         // Annotation sub menu
         m_annotationMenu->setResource( nfoResource );
         menu->addMenu(m_annotationMenu);
+	
+	//Resource Link Dialog
+	QAction *linkToResourceAction =  new QAction( i18n( "&Link to Resource" ), this );
+        //testAction->setShortcut(tr("CTRL+K"));
+     	linkToResourceAction->setToolTip( i18n( "Open Resource Link Dialog" ) );
+     	linkToResourceAction->setStatusTip( "Toggles Normal" );
+     	linkToResourceAction->setCheckable(true);
+     	connect( linkToResourceAction, SIGNAL( triggered() ), this, SLOT( linkToResource() ) );
+     	menu->addAction( linkToResourceAction );
+
 
         m_view = qobject_cast<KHTMLView*>(info.parentWidget());
     }
 }
 
+void NepomukMenuPlugin::linkToResource()
+{
+	Nepomuk::ResourceLinkDialog linkToResourceDialog( m_currentUri );
+	linkToResourceDialog.exec();
+	
+}
 
 void NepomukMenuPlugin::slotResourceAnnotated()
 {
