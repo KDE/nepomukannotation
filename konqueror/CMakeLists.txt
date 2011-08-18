@@ -5,10 +5,13 @@ include_directories(
   ${KDE4_INCLUDES}
   ${KDE4WORKSPACE_INCLUDE_DIR}
   ${SOPRANO_INCLUDES}
+  ${NEPOMUK_INCLUDE_DIR}	
 )
 
 set(nepomukmenuplugin_SRCS
   nepomukmenuplugin.cpp
+  resourcelinkdialog.cpp
+  newresourcedialog.cpp	
 )
 
 kde4_add_plugin(nepomukmenuplugin ${nepomukmenuplugin_SRCS})
@@ -22,6 +25,7 @@ target_link_libraries(nepomukmenuplugin
   ${QT_QTGUI_LIBRARY}
   ${KDE4_KHTML_LIBS}
   ${NEPOMUKEXTRAS_LIBRARIES}
+  ${NEPOMUK_QUERY_LIBRARIES}
   konq
   nepomukannotation
 )
