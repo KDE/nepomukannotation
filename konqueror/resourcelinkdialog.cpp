@@ -91,14 +91,14 @@ Nepomuk::ResourceLinkDialog::ResourceLinkDialog( QUrl &nfoResource, QWidget* par
 {
     d->m_nfoResource = nfoResource;
     setWindowTitle( i18n( "Resource Linker" ) );
-    setButtons( Ok | User1 | Apply | Cancel );
+    setButtons( Ok | User1 | User2 | Cancel );
     enableButtonCancel( true );
     enableButtonOk( true );
     enableButton( User1, false );
     setButtonText( Ok, i18n( "Done" ) );
     setButtonText( User1, i18n( "Link" ) );
-    setButtonText( Apply, "Unlink" );
-    setFixedSize(400,350);
+    setButtonText( User2, "Unlink" );
+    setMinimumSize(400,350);
 //    d->m_resourceView->setSelectionMode(QAbstractItemView::ExtendedSelection);
     QGridLayout *mainLayout = new QGridLayout ( mainWidget() );
 
@@ -120,8 +120,13 @@ Nepomuk::ResourceLinkDialog::ResourceLinkDialog( QUrl &nfoResource, QWidget* par
 
     d->m_resourceSelect = new QComboBox( mainWidget() );
     QStringList rlist;
-    rlist << i18n( "Any resource" ) << i18n( "Persons" ) << i18n( "Projects" ) << i18n( "Tasks" ) << i18n( "Places" );
+    rlist << i18n( "Any resource" ) << i18n( "Persons" ) << i18n( "Projects" ) << i18n( "Tasks" ) << i18n( "Places" ) << i18n( "Notes" );
     d->m_resourceSelect->addItems( rlist );
+    d->m_resourceSelect->setItemIcon(1,KIcon("user-identity"));
+    d->m_resourceSelect->setItemIcon(2,KIcon("project-development"));
+    d->m_resourceSelect->setItemIcon(3,KIcon("view-pim-tasks"));
+    d->m_resourceSelect->setItemIcon(4,KIcon("user-location"));
+    d->m_resourceSelect->setItemIcon(5,KIcon("knotes"));
     connect( d->m_resourceSelect, SIGNAL( currentIndexChanged( int ) ), this, SLOT( resourceSelectedSlot( int ) ) );
 
     d->m_resourceLabel = new QLabel( i18n( "Matching resources:" ), mainWidget() );
@@ -156,11 +161,11 @@ Nepomuk::ResourceLinkDialog::ResourceLinkDialog( QUrl &nfoResource, QWidget* par
     connect ( d->m_linkedResources->selectionModel(), SIGNAL( selectionChanged( QItemSelection, QItemSelection ) ),
                 this, SLOT( _k_selectionChanged() ) );
     connect ( this, SIGNAL( user1Clicked() ), this, SLOT( linkResourceSlot() ) );
-    connect ( this, SIGNAL( applyClicked() ), this, SLOT( unlinkResourceSlot() ) );
+    connect ( this, SIGNAL( user2Clicked() ), this, SLOT( unlinkResourceSlot() ) );
     connect ( d->m_resourceView, SIGNAL( doubleClicked(QModelIndex) ), this, SLOT( linkResourceSlot() ) );
     connect (d->m_linkedResources, SIGNAL( customContextMenuRequested(QPoint) ), this, SLOT( showContextMenu(QPoint) ) );
     if( !d->m_linkedResources->selectionModel()->selectedRows().isEmpty() ) {
-            enableButtonApply( true );
+            enableButton( User2, true );
     }
 }
 
@@ -255,6 +260,15 @@ void Nepomuk::ResourceLinkDialog::dynamicSearchingSlot()
          connect(test,SIGNAL( newEntries( QList<Nepomuk::Query::Result> ) ),
                  d->m_resourceModel,SLOT( addResults(QList<Nepomuk::Query::Result>)) );
          break;
+    case 5:
+        query =  Nepomuk::Query::QueryParser::parseQuery( d->m_searchBox->text() );
+        query = query && Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Note() );
+        test = new Nepomuk::Query::QueryServiceClient( this );
+        test->query( query );
+        d->m_resourceModel->clear();
+        connect(test,SIGNAL( newEntries( QList<Nepomuk::Query::Result> ) ),
+                d->m_resourceModel,SLOT( addResults(QList<Nepomuk::Query::Result>)) );
+        break;
     default:
         break;
     }
@@ -273,7 +287,7 @@ void Nepomuk::ResourceLinkDialog::resourceSelectedSlot( int index )
     if( index == 1 ) {
         Nepomuk::Query::Term term = Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Person() );
         Nepomuk::Query::Query query( term );
-        query.setLimit( 10 );
+        query.setLimit( 20 );
         QList<Nepomuk::Query::Result>results = Nepomuk::Query::QueryServiceClient::syncQuery( query );
         QList <Nepomuk::Resource> resource;
         Q_FOREACH( const Nepomuk::Query::Result& result, results ) {
@@ -285,7 +299,7 @@ void Nepomuk::ResourceLinkDialog::resourceSelectedSlot( int index )
     else if( index == 2 ) {
         Nepomuk::Query::Term term = Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Project() );
         Nepomuk::Query::Query query( term );
-        query.setLimit(10);
+        query.setLimit(20);
         QList<Nepomuk::Query::Result>results = Nepomuk::Query::QueryServiceClient::syncQuery( query );
         QList <Nepomuk::Resource> resource;
         Q_FOREACH( const Nepomuk::Query::Result& result, results ) {
@@ -297,7 +311,7 @@ void Nepomuk::ResourceLinkDialog::resourceSelectedSlot( int index )
     else if( index == 3 ) {
         Nepomuk::Query::Term term = Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Task() );
         Nepomuk::Query::Query query( term );
-        query.setLimit(10);
+        query.setLimit(20);
         QList<Nepomuk::Query::Result>results = Nepomuk::Query::QueryServiceClient::syncQuery( query );
         QList <Nepomuk::Resource> resource;
         Q_FOREACH( const Nepomuk::Query::Result& result, results ) {
@@ -309,7 +323,19 @@ void Nepomuk::ResourceLinkDialog::resourceSelectedSlot( int index )
     else if( index == 4 ) {
         Nepomuk::Query::Term term = Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Location() );
         Nepomuk::Query::Query query( term );
-        query.setLimit(10);
+        query.setLimit(20);
+        QList<Nepomuk::Query::Result>results = Nepomuk::Query::QueryServiceClient::syncQuery( query );
+        QList <Nepomuk::Resource> resource;
+        Q_FOREACH( const Nepomuk::Query::Result& result, results ) {
+            resource.append( result.resource() );
+        }
+        d->m_resourceModel->setResources( resource );
+    }
+    //List Notes
+    else if( index == 5 ) {
+        Nepomuk::Query::Term term = Nepomuk::Query::ResourceTypeTerm( Nepomuk::Vocabulary::PIMO::Note() );
+        Nepomuk::Query::Query query( term );
+        query.setLimit(20);
         QList<Nepomuk::Query::Result>results = Nepomuk::Query::QueryServiceClient::syncQuery( query );
         QList <Nepomuk::Resource> resource;
         Q_FOREACH( const Nepomuk::Query::Result& result, results ) {

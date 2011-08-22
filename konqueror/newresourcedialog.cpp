@@ -82,18 +82,27 @@ void Nepomuk::NewResourceDialog::newResourceSlot()
 {
     if( d->m_index == 1 ) {
       Nepomuk::Resource newResource( d->m_resourceName->text(), Nepomuk::Vocabulary::PIMO::Person() );
+      newResource.addSymbol( "user-identity" );
       d->m_nofResource.addIsRelated( newResource );
     }
     else if( d->m_index == 2 ) {
         Nepomuk::Resource newResource( d->m_resourceName->text(), Nepomuk::Vocabulary::PIMO::Project() );
+        newResource.addSymbol( "project-development" );
         d->m_nofResource.addIsRelated( newResource );
     }
     else if( d->m_index == 3 ) {
         Nepomuk::Resource newResource( d->m_resourceName->text(), Nepomuk::Vocabulary::PIMO::Task() );
+        newResource.addSymbol( "view-pim-tasks" );
         d->m_nofResource.addIsRelated( newResource );
     }
     else if( d->m_index == 4 ) {
         Nepomuk::Resource newResource( d->m_resourceName->text(), Nepomuk::Vocabulary::PIMO::Location() );
+        newResource.addSymbol( "user-location" );
+        d->m_nofResource.addIsRelated( newResource );
+    }
+    else if( d->m_index == 5 ) {
+        Nepomuk::Resource newResource( d->m_resourceName->text(), Nepomuk::Vocabulary::PIMO::Note() );
+        newResource.addSymbol( "knotes" );
         d->m_nofResource.addIsRelated( newResource );
     }
 }
