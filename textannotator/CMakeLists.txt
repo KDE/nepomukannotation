@@ -21,6 +21,7 @@ kde4_add_executable(nepomuktextannotator ${nepomuktextannotator_SRCS})
 
 target_link_libraries(nepomuktextannotator
   nepomukannotation
+  nepomukextras
   ${NEPOMUK_LIBRARIES}
   ${QT_QTGUI_LIBRARY}
   ${QT_QTDBUS_LIBRARY}
