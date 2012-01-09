@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=DBpedia annotation plugin
+Name[es]=Complemento de notas para la DBpedia
 Name[et]=DBpedia annotatsiooniplugin
 Name[fr]=Module d'annotation DBpedia
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ DBpedia
@@ -12,6 +13,7 @@ Name[sv]=DBpedia noteringsinsticksprogram
 Name[uk]=Додаток анотації DBpedia
 Name[x-test]=xxDBpedia annotation pluginxx
 Comment=Nepomuk Annotation Plugin which searches DBpedia for related resources
+Comment[es]=Complemento de notas de Nepomuk que busca recursos relacionados en la DBPedia
 Comment[et]=Nepomuki annotatsiooniplugin, mis otsib DBpedias asjakohaseid ressursse
 Comment[fr]=Module externe Nepomuk d'annotation effectuant une recherche dans des ressources connexes pour DBpedia
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Nepomuk ដែល​ស្វែងរក DBpedia សម្រាប់​ប្រភព​ដែល​បាន​ទាក់ទង

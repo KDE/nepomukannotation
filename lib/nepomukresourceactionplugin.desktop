@@ -3,6 +3,7 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/ResourceActionPlugin
 
 Comment=Nepomuk resource action plugin
+Comment[es]=Complemento de acciones para recursos de Nepomuk
 Comment[et]=Nepomuki ressursi toimingu plugin
 Comment[fr]=Module externe Nepomuk d'actions sur les ressources
 Comment[km]=កម្មវិធី​ជំនួយ​សកម្មភាព​ធនធាន Nepomuk

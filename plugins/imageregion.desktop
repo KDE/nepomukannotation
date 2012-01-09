@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Nepomuk image region annotation plugin
+Name[es]=Complemento de notas de regiones de imágenes para Nepomuk
 Name[et]=Nepomuki pildi piirkonna annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation de régions d'images
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​តំបន់​រូបភាព Nepomuk
@@ -12,6 +13,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för bildområde
 Name[uk]=Додаток анотації області зображень Nepomuk
 Name[x-test]=xxNepomuk image region annotation pluginxx
 Comment=Nepomuk image region annotation plugin
+Comment[es]=Complemento de notas de regiones de imágenes para Nepomuk
 Comment[et]=Nepomuki pildi piirkonna annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de régions d'images
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​តំបន់​រូបភាព Nepomuk

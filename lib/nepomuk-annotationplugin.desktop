@@ -3,6 +3,7 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/AnnotationPlugin
 
 Comment=Nepomuk annotation plugin
+Comment[es]=Complemento de notas de Nepomuk
 Comment[et]=Nepomuki annotatsiooniplugin
 Comment[fr]=Module externe Nepomuk d'annotation
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Nepomuk
