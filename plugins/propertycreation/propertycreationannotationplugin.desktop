@@ -2,6 +2,7 @@
 Name=Nepomuk PIMO property creation annotation plugin
 Name[et]=Nepomuki PIMO omaduse loomise annoteerimise plugin
 Name[fr]=Module externe d'annotation Nepomuk de création de propriétés PIMO
+Name[hu]=Nepomuk PIMO tulajdonság létrehozás magyarázat bővítmény
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ការ​បង្កើត​លក្ខណសម្បត្តិ Nepomuk PIMO
 Name[nl]=Plugin van Nepomuk PIMO van annotatie van eigenschapcreatie
 Name[pl]=Wtyczka adnotacji tworzenia właściwości PIMO dla Nepomuk
@@ -13,6 +14,7 @@ Name[x-test]=xxNepomuk PIMO property creation annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates new property values
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob uue omaduse väärtused
 Comment[fr]=Module externe d'annotation Nepomuk créant de nouvelles valeurs pour les propriétés
+Comment[hu]=Nepomuk magyarázat bővítmény, amely új tulajdonság értékeket hoz létre
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ Nepomuk ដែល​បង្កើត​តម្លៃ​​លក្ខណសម្បត្តិ​ថ្មី
 Comment[nl]=Plugin  voor Nepomuk annotatie die nieuwe eigenschapswaarden creëert
 Comment[pl]=Wtyczka adnotacji dla Nepomuk, która tworzy nowe wartości właściwości

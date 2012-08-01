@@ -2,6 +2,7 @@
 Name=Nepomuk PIMO annotation plugin
 Name[et]=Nepomuki PIMO annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation de PIMO
+Name[hu]=Nepomuk PIMO magyarázat bővítmény
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ Nepomuk PIMO
 Name[nl]=Nepomuk PIMO-annotatie-plugin
 Name[pl]=Wtyczka adnotacji PIMO dla Nepomuk
@@ -13,6 +14,7 @@ Name[x-test]=xxNepomuk PIMO annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates or annotates PIMO things
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob või annoteerib PIMO asju
 Comment[fr]=Module externe Nepomuk d'annotation créant ou annotant des éléments PIMO
+Comment[hu]=Nepomuk magyarázat bővítmény, amely PIMO dolgokat hoz létre vagy magyaráz
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​ Nepomuk ដែល​បង្កើត ឬ​ចំណាំ​វត្ថុ PIMO
 Comment[nl]=Nepomuk annotatie-plugin die PIMO-dingen aanmaakt of annoteert
 Comment[pl]=Wtyczka adnotacji dla Nepomuk, która tworzy i adnotuje rzeczy PIMO

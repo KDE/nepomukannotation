@@ -2,6 +2,7 @@
 Name=Nepomuk webpage annotation plugin
 Name[et]=Nepomuki veebilehekülje annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotations de pages web
+Name[hu]=Nepomuk weboldal magyarázat bővítmény
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​ទំព័រ​បណ្ដាញ Nepomuk
 Name[nds]=Nepomuk-Nettsieden-Anmarkmoduul
 Name[nl]=Nepomuk annotatie-plugin voor webpagina's
@@ -14,6 +15,7 @@ Name[x-test]=xxNepomuk webpage annotation pluginxx
 Comment=Nepomuk webpage region annotation plugin
 Comment[et]=Nepomuki veebilehekülje piirkonna annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotations de régions de pages web
+Comment[hu]=Nepomuk weboldal régió magyarázat bővítmény
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​​តំបន់​ទំព័រ​បណ្ដាញ Nepomuk
 Comment[nds]=Nepomuk-Nettsietrebeet-Anmarkmoduul
 Comment[nl]=Nepomuk annotatie-plugin voor webpagina-regio's
