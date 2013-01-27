@@ -2,6 +2,7 @@
 Encoding=UTF-8
 Type=Service
 Name=Nepomuk File Item Action plugin
+Name[de]=Nepomuk-Aktionsmodul für Dateieinträge
 Name[es]=Complemento de elementos de acción para archivos de Nepomuk
 Name[et]=Nepomuki faili toimingu plugin
 Name[fr]=Module externe Nepomuk d'actions sur des éléments de fichiers
