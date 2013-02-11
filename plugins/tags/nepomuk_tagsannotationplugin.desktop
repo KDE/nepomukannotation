@@ -2,6 +2,7 @@
 Name=Nepomuk tags annotation plugin
 Name[et]=Nepokumi siltide annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation d'étiquettes
+Name[gl]=Engadido de anotación de etiquetas de Nepomuk
 Name[hu]=Nepomuk címkék magyarázat bővítmény
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ស្លាក Nepomuk
 Name[nds]=Nepomuk-Slötelwoortanmark-Moduul
@@ -15,6 +16,7 @@ Name[x-test]=xxNepomuk tags annotation pluginxx
 Comment=Nepomuk tags region annotation plugin
 Comment[et]=Nepomuki siltide piirkonna annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de régions d'étiquettes
+Comment[gl]=Engadido de anotación de rexións de etiquetas de Nepomuk
 Comment[hu]=Nepomuk címkerégiók magyarázat bővítmény
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់​តំបន់​ស្លាក Nepomuk
 Comment[nds]=Nepomuk-Slötelwoortrebeet-Anmarkmoduul
