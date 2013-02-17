@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Nepomuk files annotation plugin
+Name[de]=Nepomuk-Modul für Dateianmerkungen
 Name[es]=Complemento de notas de archivos para Nepomuk
 Name[et]=Nepomuki failide annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation de fichiers
@@ -15,6 +16,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för filer
 Name[uk]=Додаток анотації файлів Nepomuk
 Name[x-test]=xxNepomuk files annotation pluginxx
 Comment=Nepomuk files annotation plugin
+Comment[de]=Nepomuk-Modul für Dateianmerkungen
 Comment[es]=Complemento de notas de archivos para Nepomuk
 Comment[et]=Nepomuki failide annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de fichiers
