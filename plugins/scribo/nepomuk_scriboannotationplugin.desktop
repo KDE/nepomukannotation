@@ -2,7 +2,7 @@
 Name=Scribo annotation plugin
 Name[de]=Scribo-Anmerkungen-Modul
 Name[et]=Scribo annotatsiooniplugin
-Name[fr]=Module externe d'annotation Scribo
+Name[fr]=Module externe d'annotation « Scribo »
 Name[gl]=Engadido de anotacións de Scribo
 Name[hu]=Scribo magyarázat bővítmény
 Name[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Scribo
@@ -18,7 +18,7 @@ Name[uk]=Додаток анотації Scribo
 Name[x-test]=xxScribo annotation pluginxx
 Comment=Nepomuk Annotation Plugin which extracts entitiy from a text using Scribo
 Comment[et]=Nepomuki annotatsiooniplugin, mis hangib Scribo vahendusel tekstist olemeid
-Comment[fr]=Module externe d'annotation Nepomuk extrayant une entité à partir d'un texte à l'aide de Scribo
+Comment[fr]=Module externe d'annotation Nepomuk extrayant une entité à partir d'un texte à l'aide de « Scribo »
 Comment[gl]=Engadido de anotacións de Nepomuk que extrae entidades dun texto empregando Scribo
 Comment[hu]=Nepomuk magyarázat bővítmény, amely szövegből entitást bont ki a Scribo használatával
 Comment[km]=កម្មវិធី​ជំនួយ​ចំណារ​ពន្យល់ Nepomuk ដែល​ស្រង់​ធាតុចេញពី​​អត្ថបទ​ដោយ​ប្រើ Scribo
