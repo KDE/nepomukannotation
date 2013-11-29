@@ -19,6 +19,7 @@ Name[sv]=DBpedia noteringsinsticksprogram
 Name[uk]=Додаток анотації DBpedia
 Name[x-test]=xxDBpedia annotation pluginxx
 Comment=Nepomuk Annotation Plugin which searches DBpedia for related resources
+Comment[de]=DBpedia-Anmerkungsmodul, das DBpedia nach zugehörigen Ressourcen durchsucht.
 Comment[es]=Complemento de notas de Nepomuk que busca recursos relacionados en la DBPedia
 Comment[et]=Nepomuki annotatsiooniplugin, mis otsib DBpedias asjakohaseid ressursse
 Comment[fr]=Module externe Nepomuk d'annotation effectuant une recherche dans des ressources connexes pour « DBpedia »
