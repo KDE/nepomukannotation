@@ -17,6 +17,7 @@ Name[sv]=Scribo noteringsinsticksprogram
 Name[uk]=Додаток анотації Scribo
 Name[x-test]=xxScribo annotation pluginxx
 Comment=Nepomuk Annotation Plugin which extracts entitiy from a text using Scribo
+Comment[de]=Nepomuk-Anmerkungen-Modul, das Entitäten aus einem Text mit Hilfe von Scribo erstellt.
 Comment[et]=Nepomuki annotatsiooniplugin, mis hangib Scribo vahendusel tekstist olemeid
 Comment[fr]=Module externe d'annotation Nepomuk extrayant une entité à partir d'un texte à l'aide de « Scribo »
 Comment[gl]=Engadido de anotacións de Nepomuk que extrae entidades dun texto empregando Scribo

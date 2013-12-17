@@ -16,6 +16,7 @@ Name[sv]=Nepomuk PIMO-typinsticksprogram
 Name[uk]=Додаток типів PIMO Nepomuk
 Name[x-test]=xxNepomuk PIMO type pluginxx
 Comment=Nepomuk Annotation Plugin which creates and types PIMO things
+Comment[de]=Nepomuk-Anmerkungen-Modul, das PIMO-Daten und -Typen erstellt.
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob ja annab tüübi PIMO asjadele
 Comment[fr]=Module externe Nepomuk d'annotation créant et caractérisant des éléments « PIMO »
 Comment[gl]=Engadido de anotación de Nepomuk que crear ou escribe cousas PIMO

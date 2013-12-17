@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Nepomuk PIMO property creation annotation plugin
+Name[de]=Nepomuk-Anmerkungen-Modul für die Erstellung von PIMO-Eigenschaften
 Name[et]=Nepomuki PIMO omaduse loomise annoteerimise plugin
 Name[fr]=Module externe d'annotation Nepomuk pour la création de propriétés « PIMO »
 Name[gl]=Engadido de anotacións de creación de propiedades en PIMO para Nepomuk
@@ -15,6 +16,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för att skapa PIMO-egenskaper
 Name[uk]=Додаток анотації для створення записів властивостей у PIMO Nepomuk
 Name[x-test]=xxNepomuk PIMO property creation annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates new property values
+Comment[de]=Nepomuk-Anmerkungen-Modul, das neue Werte für Eigenschaften erstellt
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob uue omaduse väärtused
 Comment[fr]=Module externe d'annotation Nepomuk créant de nouvelles valeurs pour les propriétés
 Comment[gl]=Engadido de anotación de Nepomuk que crea novos valores de anotación
