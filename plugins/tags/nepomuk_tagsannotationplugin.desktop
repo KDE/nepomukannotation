@@ -17,6 +17,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för etiketter
 Name[uk]=Додаток анотації міток Nepomuk
 Name[x-test]=xxNepomuk tags annotation pluginxx
 Comment=Nepomuk tags region annotation plugin
+Comment[de]=Nepomuk-Modul für Anmerkungen zu Stichwortbereichen
 Comment[et]=Nepomuki siltide piirkonna annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de régions d'étiquettes
 Comment[gl]=Engadido de anotación de rexións de etiquetas de Nepomuk
