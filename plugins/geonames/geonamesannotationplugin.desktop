@@ -18,6 +18,7 @@ Name[sv]=Noteringsinsticksprogram för Geonames
 Name[uk]=Додаток анотації Geonames
 Name[x-test]=xxGeonames annotation pluginxx
 Comment=Nepomuk Annotation Plugin which tries to relate to geographical things such as cities from geonames
+Comment[de]=Nepomuk-Anmerkungen-Modul, das Beziehungen zu geografischen Daten wie Städte von Geonames vorschlägt
 Comment[es]=Complemento de notas de Nepomuk que trata de buscar relaciones de términos geográficos como ciudades en Geonames
 Comment[et]=Nepomuki annotatsiooniplugin, mis püüab seostada geograafilisi asju, näiteks linnasid, Geonamesi põhjal
 Comment[fr]=Module externe Nepomuk d'annotation s'efforçant d'associer des éléments géographiques tels que des villes à partir de « Geonames »
