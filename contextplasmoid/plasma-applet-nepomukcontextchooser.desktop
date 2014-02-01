@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Work Context Chooser
+Name[bs]=Akcija odabiranja dodatka
 Name[de]=Arbeit-Kontextauswahl
 Name[es]=Selector de contextos de trabajo
 Name[et]=Töökonteksti valija
@@ -17,6 +18,7 @@ Name[sv]=Val av arbetssammanhang
 Name[uk]=Вибір робочого контексту
 Name[x-test]=xxWork Context Chooserxx
 Comment=Select the current Nepomuk work context
+Comment[bs]=Odaberite trenutni Nepomuk radni dodatak
 Comment[de]=Wählen Sie den aktuellen Arbeitskontext für Nepomuk
 Comment[es]=Seleccionar el contexto de trabajo actual de Nepomuk
 Comment[et]=Aktiivne Nepomuki töökonteksti valimine

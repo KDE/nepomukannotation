@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Nepomuk tags annotation plugin
+Name[bs]=Nepomuk dodatak za pribilješke za oznake
 Name[de]=Nepomuk-Modul für Stichwörteranmerkungen
 Name[et]=Nepokumi siltide annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation d'étiquette
@@ -17,6 +18,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för etiketter
 Name[uk]=Додаток анотації міток Nepomuk
 Name[x-test]=xxNepomuk tags annotation pluginxx
 Comment=Nepomuk tags region annotation plugin
+Comment[bs]=Nepomuk dodatak za pribilješke oznaka regiona
 Comment[de]=Nepomuk-Modul für Anmerkungen zu Stichwortbereichen
 Comment[et]=Nepomuki siltide piirkonna annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de régions d'étiquettes

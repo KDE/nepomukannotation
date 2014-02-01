@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Nepomuk project annotation plugin
+Name[bs]=Nepomuk dodatak za pribilješke projekata
 Name[de]=Nepomuk-Modul für Projektanmerkungen
 Name[es]=Complemento de notas de proyectos para Nepomuk
 Name[et]=Nepomuki projekti annoteerimise plugin
@@ -18,6 +19,7 @@ Name[sv]=Nepomuk noteringsinsticksprogram för projekt
 Name[uk]=Додаток анотації проектів Nepomuk
 Name[x-test]=xxNepomuk project annotation pluginxx
 Comment=Nepomuk project annotation plugin
+Comment[bs]=Nepomuk dodatak za pribilješke projekata
 Comment[de]=Nepomuk-Modul für Projektanmerkungen
 Comment[es]=Complemento de notas de proyectos para Nepomuk
 Comment[et]=Nepomuki projekti annoteerimise plugin

@@ -19,6 +19,7 @@ Name[sv]=Insticksprogram för sammanhangsnotering
 Name[uk]=Додаток контекстної анотації
 Name[x-test]=xxContext annotation pluginxx
 Comment=Nepomuk Annotation Plugin which proposes to relate to the current Nepomuk context
+Comment[bs]=Nepomuk dodatak za pribilješke koji predlaže poveznicu sa trentnim Nepomuk dodatkom
 Comment[de]=Nepomuk-Anmerkungen-Modul, das Vorschläge für Beziehungen zum aktuellen Nepomuk-Kontext liefert.
 Comment[es]=Complemento de notas de Nepomuk que propone relaciones con el contexto actual de Nepomuk
 Comment[et]=Nepomuki annotatsiooniplugin, mis püüab seostada aktiivset Nepomuki konteksti
