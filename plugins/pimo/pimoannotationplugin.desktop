@@ -2,6 +2,7 @@
 Name=Nepomuk PIMO annotation plugin
 Name[bs]=Nepomuk dodatak za pribilješke PIMO
 Name[de]=Nepomuk-Modul für PIMO-Anmerkungen
+Name[es]=Complemento de notas de Nepomuk para modelos de información personal (PIMO) 
 Name[et]=Nepomuki PIMO annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation de « PIMO »
 Name[gl]=Engadido de anotación PIMO de Nepomuk
@@ -19,6 +20,7 @@ Name[x-test]=xxNepomuk PIMO annotation pluginxx
 Comment=Nepomuk Annotation Plugin which creates or annotates PIMO things
 Comment[bs]=Nepomuk dodatak za pribilješke koji kreira ili bilježi PIMO stvari
 Comment[de]=Nepomuk-Anmerkungen-Modul, das PIMO-Daten erstellt oder Anmerkungen hinzufügt.
+Comment[es]=Complemento de notas de Nepomuk para crear o comentar en modelos de información personal (PIMO)
 Comment[et]=Nepomuki annotatsiooniplugin, mis loob või annoteerib PIMO asju
 Comment[fr]=Module externe Nepomuk d'annotation créant ou annotant des éléments « PIMO »
 Comment[gl]=Engadido de anotación de Nepomuk que crea ou anota cousas PIMO

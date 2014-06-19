@@ -2,7 +2,7 @@
 Name=Nepomuk project annotation plugin
 Name[bs]=Nepomuk dodatak za pribilješke projekata
 Name[de]=Nepomuk-Modul für Projektanmerkungen
-Name[es]=Complemento de notas de proyectos para Nepomuk
+Name[es]=Complemento de notas del proyecto Nepomuk
 Name[et]=Nepomuki projekti annoteerimise plugin
 Name[fr]=Module externe Nepomuk d'annotation de projet
 Name[gl]=Engadido de proxectos de anotación de Nepomuk
@@ -21,7 +21,7 @@ Name[x-test]=xxNepomuk project annotation pluginxx
 Comment=Nepomuk project annotation plugin
 Comment[bs]=Nepomuk dodatak za pribilješke projekata
 Comment[de]=Nepomuk-Modul für Projektanmerkungen
-Comment[es]=Complemento de notas de proyectos para Nepomuk
+Comment[es]=Complemento de notas del proyecto Nepomuk
 Comment[et]=Nepomuki projekti annoteerimise plugin
 Comment[fr]=Module externe Nepomuk d'annotation de projet
 Comment[gl]=Engadido de proxectos de anotación de Nepomuk
