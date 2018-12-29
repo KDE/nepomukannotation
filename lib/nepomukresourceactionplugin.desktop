@@ -3,6 +3,25 @@ Type=ServiceType
 X-KDE-ServiceType=Nepomuk/ResourceActionPlugin
 
 Comment=Nepomuk resource action plugin
+Comment[bs]=Nepomuk dodatak za resurne aktivnosti
+Comment[de]=Nepomuk-Aktionsmodul für Ressourcen
+Comment[es]=Complemento de acciones para recursos de Nepomuk
+Comment[et]=Nepomuki ressursi toimingu plugin
+Comment[fi]=Nepomukin resurssitoimintoliitännäinen
+Comment[fr]=Module externe Nepomuk pour des actions sur des ressources
+Comment[gl]=Complemento de recursos de acción para Nepomuk
+Comment[hu]=Nepomuk erőforrás művelet bővítmény
+Comment[km]=កម្មវិធី​ជំនួយ​សកម្មភាព​ធនធាន Nepomuk
+Comment[mr]=नेपोमुक संसाधन क्रिया प्लगइन
+Comment[nds]=Nepomuk-Akschoonressource-Moduul
+Comment[nl]=Nepomuk hulpbronactie-plugin
+Comment[pl]=Wtyczka działania na zasobach dla Nepomuk
+Comment[pt]='Plugin' de acções dos recursos do Nepomuk
+Comment[pt_BR]=Plugin de ações dos recursos do Nepomuk
+Comment[sk]=Plugin anotácie zdroja Nepomuk
+Comment[sv]=Nepomuk insticksprogram för resursåtgärder
+Comment[uk]=Додаток дій ресурсів Nepomuk
+Comment[x-test]=xxNepomuk resource action pluginxx
 
 [PropertyDef::X-KDE-NepomukResourceType]
 Type=QStringList
